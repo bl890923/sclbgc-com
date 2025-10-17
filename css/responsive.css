@@ -1,0 +1,295 @@
+/*767px以下通用样式*/
+@media only screen and (max-width : 959px) {
+	.header_center{ width:100%;}
+	.logo{ margin: 2%;}
+	.logo_txt{ display: none;}
+	.header_txt{ display: none;}
+	.nav_bg { display: none; }
+	.nav{ width:100%; overflow:hidden; background: none; }
+	.nav li{ width: 100%; height: auto; background: none;}
+	.rmgjc_bg,.tel{ display: none;}
+	.tel p{ display: none;}
+	.tel span{ margin-right: 10px;}
+	.tel1{ width: 100%;}
+	.banner{ margin: 0;}
+	.sy_title{ margin: 4% auto 4%;}
+
+	.huoban{ width: 100%; height: auto; left: 0; margin-left: 0; background-size: cover;}
+	.huoban_content { width: 100%; margin: 10px auto 20px; }
+
+	.product_bg{ width: 100%; padding-bottom: 30px; }
+	.product { width: 100%; margin: 20px auto 0px; }
+	.product_l{ display: none;}
+
+	.product_r { width: 100%; }
+	.product_r_title a{ margin-top: 4px;}
+	.product_r ul{ width: 100%;}
+	.product_r ul li{ width: 48%; height: auto; margin: 0px 1% 2% 1%; }
+	
+	
+	.product_content > .product_list > dl{ height:550px; min-height:550px;}
+	.product_list dl dd { width:90%;}
+
+
+	.youshi{ width: 100%; height: auto; background: none; margin: 30px auto;}
+	.youshi_content{ width: 100%; padding-bottom: 0px;}
+	.youshi_title{ width: 100%; margin: 0 auto 0px;}
+	.youshi_title p{ margin-bottom: 20px;}
+	.youshi_title span{ float: left;}
+	.youshi_1{  width: 98%; margin-left: 1%; margin-top: 0;}
+	.youshi_1_txt{ width: 100%; margin-top: 10px;}
+	.youshi_1_txt span{ font-size:22px; margin-top: 6px;}
+	.youshi_1_txt p{ margin: 45px 5px 0px; font-size:14px; line-height:22px;}
+	.youshi_2 { float: left;}
+
+
+
+	.anli{ width:100%; height: auto; margin-bottom: 10px; background: none;}
+	.anli_content{ width: 100%;}
+	.picScroll-left .prev, .picScroll-left .next{ z-index: 2;}
+	.picScroll-left .bd{ width: 100%;}
+	.picScroll-left .bd ul li .pic { width: 98%; margin-left: 1%; }
+
+	.abouts{ width: 100%; height: auto; left: 0; margin-left: 0; background: none;}
+	.abouts1{width: 100%;}
+	.abouts_txt{ width: 96%; height: auto; margin: 20px 0 0 0; padding: 2%; }
+	.abouts1 img{width: 100%;}
+
+
+	.news{ width:100%; margin:20px auto 75px;}
+
+	.news_content{ }
+	.news_l,.news_r{width: 100%; height: auto;}
+	.news_l li{ width: 48%; background: #fff; height: auto;}
+	.news_l li .news_txt{width: 92%;}
+
+
+
+	
+	.footers{ width:100%; height:56px; border:8px solid #d0d0d0; border-left:none; border-right:none; position: fixed; z-index: 99999; bottom:0; background-color:#253f8e; display:block;}
+	.footers ul li{ width:25%; height:56px; float:left;}
+	.footers ul li p{ width:85%; height:48px; margin:0px auto; text-align:center; padding:4px 0px;}
+	.footers ul li p img{ width:30%; margin:4% auto; display:block;}
+	.footers ul li p a{ color:#ffffff; font-size:0.8rem;}
+	.link,.footer{ display:none;}
+	
+	.ldls{ margin-left:0%;}
+
+    .izl-rmenu{ display:none;}
+    .nav .peiseka{ display:block;}
+
+
+	.ny_banner{ margin-top: 0;}
+	
+	.daohang{ width:98%; background:none; border-bottom:1px solid #D5D5D5; font-size:14px;}
+	.ny_main{ width:100%; height:auto; overflow:hidden; margin:3% auto 75px;}
+	.ny_pro{ width:100%; height:auto; margin:0px auto; overflow:hidden;}
+	.ny_cont{ display:none;}
+
+	.product_l2{ display: block; width: 99%; float: none; margin: 0px auto;}
+	.product_l2 dl{ width: 96%; margin:2%; padding-bottom: 30px;}
+	.product_l2 dl dd{ width: 47%; margin: 2% 1%; float: left; display: block; overflow: hidden; background-image: none; text-align: center;}
+	.product_l2 dl dd a{ margin: 0;}
+	
+	/*产品列表页*/
+	.ny_pro_content{ width:100%;}
+	.ny_pro_content ul{ width:100%; margin:0px auto;}
+	.ny_pro_content ul li{ width:48%; height:auto; margin:1%; }
+	.ny_pro_content ul li a{ width:100%; height:auto;}
+
+	.ny_anli_content{ margin-top: 10px; margin-bottom: 75px;}
+
+
+	/* 产品详细页 */
+	.ny_prodetail_txt{ width:100%; height:auto; margin:2% auto; background:#fff; overflow:hidden;}
+	.ny_prodetail_txt img{ width:93%; height:auto; margin:0px auto; float:none; display:block;}
+	.shuoming{ width:90%; height:auto; float:none; margin:0px auto;}
+	.shuoming p{ height:auto; line-height:25px; padding-bottom:20px;}
+	.shuoming i{ margin-top: 0;}
+	.ny_prodetail_txt2{ width:100%; height:auto; margin:35px auto 0px; background:#fff; overflow:hidden;}
+	.ny_detailtxt_content{ width:95%; margin:0px auto; float:none;}
+
+	/*新闻列表页*/
+	.ny_news,.ny_l{ width:100%;}
+	.ny_con{ display: none;}
+	.ny_news_content{ width:100%;}
+	.ny_news_content dl{ width:98%; height:auto; overflow:hidden; margin:20px auto 0px;}
+	.ny_news_content ul li span{ width: 14%;}
+
+	
+	
+	.ny_main_r_content .news_list li p{ width:65%;}
+	.ny_main_r_content .news_name{ width:100%;}
+	
+	.prodetail22{ width:94%;}
+
+    .line{ margin: 1% auto;}
+	
+}
+
+
+
+/*Styles for screen 960px-1200px,主要为了小屏浏览器 */
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+	
+	
+}
+/*Styles for screen 768px-959px 主要是平板横屏显示*/
+@media screen and (min-width: 768px) and (max-width: 959px) {
+	.logo{ }
+	.mune{ width:10%; float:right; margin:5% 1% 0 0; display:block; cursor: pointer;}
+	.header_txt{background:#0071D9;}
+	.header_tel{ display:none;}
+	.nav_bg{ width:100%; height:auto; display:none; position:relative;}
+	.nav{ width:100%; height:auto;}
+	.nav li{ width:33.33%;}
+
+	.picScroll-left .bd{ height: auto;}
+	.picScroll-left .bd ul li{ width: 33.33%; margin: 0%;}
+	.picScroll-left .bd ul li a{ display: block; width: 99%; margin: 0 0.5%;}
+	.picScroll-left .hd{ margin: 20px auto;}
+
+	.product_r_content ul li{ width:31.3%; height:auto; float:left; margin:1%;}
+	.news_title{ width: 96%; margin-left: 2%;}
+
+	.footers ul li p img{ width:15%; margin:1% auto; display:block;}
+	
+	/*新闻列表页*/
+	.ny_news{ width:100%;}
+	.ny_news_content{ width:100%;}
+	.ny_news_content ul{ width:96%; height:auto; overflow:hidden; margin:20px auto 0px;}
+	.ny_news_content ul li img{ display:block;}
+	.news_txt2{ width: 82%;}
+	
+	.ny_pro_content ul li{ width:30.4%; height:auto; float:left; margin:1%;}
+	.ny_prodetail_txt img{ width:auto; height:100%; margin:0px auto; float:none; display:block;}
+}
+
+/*Styles for screen 480px-767px,主要是手机横屏和平板竖屏显示*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.logo{  height: auto; width: 50%;}
+	.mune{ width:10%; float:right; margin:5% 1% 0 0; display:block; cursor: pointer;}
+	.header_txt{background:#0071D9;}
+	.header_tel{ display:none;}
+	.nav_bg{ width:100%; height:auto; display:none; position:relative;}
+	.nav{ width:100%; height:auto;}
+	.nav li{ }
+
+	.sy_title img{ width: 110%; margin-left: -5%;}
+
+	.anli_content ul li{ width: 48%;}
+	.anli_content ul li p{ line-height: 40px;}
+
+	.product_list{ width: 49%;}
+	.product_list:first-child{ width: 99%;}
+
+	.shipin{ width: 100%; margin: 0; height: auto;}
+	.huoban_content ul li{ width: 47%;}
+
+	.youshi_1 > img{ width: 100%; margin: 5px 0 0 0px;}
+
+	.picScroll-left .bd{ height: auto;}
+	.picScroll-left .bd ul li{ width: 50%; margin: 0%;}
+	.picScroll-left .bd ul li a{ display: block; width: 99%; margin: 0 0.5%;}
+	.picScroll-left .hd{ margin: 20px auto;}
+
+	.news_title{ width: 96%; margin-left: 2%;}
+	.news_txt2{ width: 82%;}
+	.footers ul li p img{ width:18%; margin:1% auto; display:block;}
+
+    .ny_news_content dl dt img{ margin: 0px auto; float: none; display: block;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 525px) {
+	.news_txt2 a{ margin: 0;}
+}
+
+
+
+/*479px,主要是手机竖屏显示*/
+@media only screen and (max-width : 479px) {
+	.logo{ width: 83%; height: auto; }
+	.mune{ width:32px; float:right; margin:6% 2% 0 0; display:block; cursor: pointer;}
+	.nav_bg{ width:100%; height:auto; display:none; position:relative;}
+	.nav{ width:100%;}
+	.nav li{ width:100%; }
+	.rmgjc{ width:100%;}
+	.gjc{ width:95%; margin-left:2%;}
+	.suosuo{ display:none;}
+
+	.sy_title{background-size: contain;}
+	.sy_title p{ font-size: 28px; }
+	.sy_title i{ font-size: 20px; margin: 10px auto 20px;}
+	.picMarquee-left .bd ul li{ width: 50%;}
+	.picScroll-left .bd ul li{ width: 50%;}
+	.picScroll-left .bd ul li .pic img {
+		width: 100%;
+		height: 210px;
+		display: block;
+	}
+
+	.anli > a{ width: 120px; height: 30px; line-height: 30px; margin: 30px auto 20px; font-size: 16px;}
+
+	.shipin{ width: 100%; margin: 0; height: auto;}
+
+	.huoban_content ul li { width: 47%;}
+
+	.youshi_title{ width: 100%; height: auto; margin: 0px auto 5px;}
+    .youshi_title img{ width: 98%; height: auto; margin: 1%; display: block;}
+
+	.anli_content{width: 100%;}
+	.anli_content ul li{ width: 48%;}
+	.anli_content ul li p{ line-height: 40px;}
+
+	.product_list{ width: 49%;}
+	.product_list:first-child{ width: 99%;}
+	.product_list > a {
+		width: 100%;
+		margin: 10px 0 0 0%;
+		position: relative;
+	}
+
+	.youshi_1 > img{ width: 100%; margin: 5px 0 0 0px;}
+
+	.news_l li{ width: 98%; margin: 1%;}
+	.news_l li .news_txt{width: 100%;}
+	
+	.daohang span{ display:none;}
+	.daohang p{ float:left;}
+
+	.picMarquee-left2 .bd ul li{ width: 35%; }
+	
+	.ny_main_r_content ul{ width:100%; height:auto; margin:0px auto; overflow:hidden;}
+	.ny_main_r_content ul li{ width:90%; height:auto; float:none; margin:20px auto 0px; overflow:hidden;}
+	.ny_main_r_content ul li img{ width:100%; height:auto;}
+
+
+	.ny_news_content ul li { width: 95.5%; padding: 3% 2%; margin-bottom: 15px;}
+	.ny_news_content ul li span{ display: none;}
+	.news_txt2{ width:98%; height:auto; margin-right: 1%;}
+	.news_txt2 p{ margin-top:10px;}
+
+	.footers{ display:block;}
+	.ny_pro_content ul li img{ width: 95%; height: 200px;}
+	
+	.newslist dd span{ display:none}
+
+	.ny_news_content dl dt img{ margin: 0px auto; float: none; display: block;}
+	
+	.ny_detailtxt_content p img{
+		width: 100%;
+		height: 300px;
+	}
+	.ny_prodetail_txt img {
+		width: 93%;
+		height: 350px;
+		margin: 0px auto;
+		float: none;
+		display: block;
+	}
+	.shipin{ width: 100%; height: auto; margin-left: 12px;}
+	.ny_newsdetial .prodetail22 img {
+	   width: 100%!important;
+       height: 350px!important;
+	}
+}
